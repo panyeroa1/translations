@@ -2,33 +2,15 @@
 {
   "name": "Succes Class • Group SUCCESS",
   "short_name": "SuccesClass",
-  "description": "Group chat with real-time STT (Deepgram Nova-3), translation, and TTS playback (Cartesia Sonic-3) — PWA-ready.",
-  "id": "/",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui", "browser"],
   "background_color": "#f0f2f5",
   "theme_color": "#008069",
   "orientation": "portrait-primary",
-  "lang": "en",
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
-  "categories": ["education", "communication", "productivity"],
-  "prefer_related_applications": false,
-
-  "shortcuts": [
-    {
-      "name": "Open SUCCESS",
-      "short_name": "SUCCESS",
-      "url": "./index.html#SUCCESS",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
-    }
-  ],
-
-  "permissions": [
-    "microphone"
-  ]
+  "permissions": ["microphone"]
 }
